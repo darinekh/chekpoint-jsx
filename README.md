@@ -1,42 +1,43 @@
 React Product Card Project
-Objectif du projet
 
-Ce projet a pour but de pratiquer la création de composants React et l’utilisation de JSX. Il inclut la création d’une carte produit dynamique avec React-Bootstrap et la gestion de l’affichage conditionnel.
+Objectif du projet :
 
-Fonctionnalités
+--> Ce projet a pour but de pratiquer la création de composants React et l’utilisation de JSX. Il inclut la création d’une carte produit dynamique avec React-Bootstrap et la gestion de l’affichage conditionnel.
 
-Création d’un projet avec create-react-app.
+Fonctionnalités:
 
-Définition d’un objet JSON représentant un produit (product.js) contenant :
+* Création d’un projet avec create-react-app.
 
-name : nom du produit
+* Définition d’un objet JSON représentant un produit (product.js) contenant :
 
-price : prix
+  - name : nom du produit
 
-description : description
+ - price : prix
 
-image : URL ou chemin de l’image du produit
+ - description : description
 
-Création de quatre composants séparés :
+ - image : URL ou chemin de l’image du produit
 
-Name.js → affiche le nom du produit
+* Création de quatre composants séparés :
 
-Price.js → affiche le prix du produit
+ - Name.js → affiche le nom du produit
 
-Description.js → affiche la description
+ - Price.js → affiche le prix du produit
 
-Image.js → affiche l’image
+ - Description.js → affiche la description
 
-Import et utilisation de l’objet JSON dans chaque composant.
+ - Image.js → affiche l’image
 
-Affichage d’une carte produit (Card) utilisant React-Bootstrap dans App.js contenant tous les composants.
+* Import et utilisation de l’objet JSON dans chaque composant.
 
-Affichage conditionnel :
+* Affichage d’une carte produit (Card) utilisant React-Bootstrap dans App.js contenant tous les composants.
 
-Un message “Hello, [Prénom]” si un prénom est fourni.
+* Affichage conditionnel :
 
-“Hello, there!” si aucun prénom n’est fourni.
+--> Un message “Hello, [Prénom]” si un prénom est fourni.
 
-Une image supplémentaire si le prénom est fourni.
+--> “Hello, there!” si aucun prénom n’est fourni.
+
+--> Une image supplémentaire si le prénom est fourni.
 
 Stylisation créative de la carte et des composants.
