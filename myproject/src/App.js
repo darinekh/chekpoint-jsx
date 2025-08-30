@@ -1,9 +1,10 @@
-import React from 'react';
-import Name from './Name';
-import Price from './Price';
-import Description from './Description';
-import Image from './Image';
+import React from 'react'; // On importe React pour pouvoir utiliser JSX et créer des composants
+import Name from './Name'; // On importe le composant qui affiche le nom du produit
+import Price from './Price'; // On importe le composant qui affiche le prix du produit
+import Description from './Description'; // On importe le composant qui affiche la description
+import Image from './Image'; // On importe le composant qui affiche l'image du produit
 
+// Variable pour stocker le prénom, utilisé pour un message personnalisé
 const firstName = "Darine"; // Remplace par ton prénom ou laisse vide
 
 function App() {
